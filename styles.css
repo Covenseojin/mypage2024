@@ -1,10 +1,31 @@
+/* Tag selector */
+
 /* table, td {
     border: 2px solid rgb(140 140 140);
 } */
 
+img {
+    width: 250px; height: 250px; border-radius: 50%;
+  }
+
+  h1{
+    color: rgb(15, 128, 81);
+}
+
+hr {
+    /* background-color: rgb(162, 223, 199); */
+    border-style: dotted none none;
+    width: 30%;
+    /* height: 2px; */
+    border-color: #F6F7C4;
+    border-width: 5px;
+  }
+body{
+  background-color: #F6D6D6;
+}
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
+    /* border: 2px solid rgb(140 140 140); */
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
@@ -23,7 +44,7 @@ table {
   
   th,
   td {
-    border: 1px solid rgb(160 160 160);
+    /* border: 1px solid rgb(160 160 160); */
     padding: 8px 10px;
   }
   
